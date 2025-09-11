@@ -1,4 +1,4 @@
-import { IAnimal } from '../interfaces/IAnimal';
+import { IAnimal } from "../interfaces/iAnimal";
 
 export abstract class Animal implements IAnimal {
  constructor(public nome: string, public idade: number) {}
