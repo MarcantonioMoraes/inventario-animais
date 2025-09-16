@@ -1,6 +1,6 @@
-import { Animal } from "../classes/Animal";
+import type { Animal } from "../classes/Animal.js";
 
-export class Inventario {
+export  class Inventario {
  private animais: Animal[] = [];
  adicionar(animal: Animal) {
  this.animais.push(animal);

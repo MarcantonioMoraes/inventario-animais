@@ -1,5 +1,5 @@
 // Reptil.ts
-import { Animal } from "./Animal";
+import type { Animal } from "./Animal.js";
 
 export class Reptil extends Animal {
  emitirSom(): void {

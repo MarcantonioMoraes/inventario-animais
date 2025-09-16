@@ -1,5 +1,5 @@
 // Mamifero.ts
-import { Animal } from "./Animal";
+import type { Animal } from "./Animal";
 
 export class Mamifero extends Animal {
  emitirSom(): void {

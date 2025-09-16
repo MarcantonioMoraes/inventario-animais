@@ -1,7 +1,7 @@
-import { Mamifero } from "./classes/Mamifero";
-import { Ave } from "./classes/Ave";
-import { Reptil } from "./classes/Reptil";
-import { Inventario } from "./managers/Inventario";
+import type { Mamifero } from "./classes/Mamifero.js";
+import type { Ave } from "./classes/Ave.js";
+import type { Reptil } from "./classes/Reptil.js";
+import type { Inventario } from "./managers/inventario.js";
 const inventario = new Inventario();
 const leao = new Mamifero("Leão", 5);
 const arara = new Ave("Arara Azul", 2);
