@@ -1,5 +1,5 @@
 // Ave.ts
-import type { Animal } from "../classes/Animal.js";
+import  { Animal } from "./Animal.js";
 
 export class Ave extends Animal {
  emitirSom(): void {

@@ -1,0 +1,1 @@
+{"version":3,"file":"inventario.d.ts","sourceRoot":"","sources":["../../src/managers/inventario.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,MAAM,EAAE,MAAM,sBAAsB,CAAC;AAEnD,qBAAc,UAAU;IACvB,OAAO,CAAC,OAAO,CAAgB;IAC/B,SAAS,CAAC,MAAM,EAAE,MAAM;IAGxB,MAAM;IAMN,cAAc;CAMd"}
