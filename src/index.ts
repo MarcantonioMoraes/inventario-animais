@@ -1,4 +1,5 @@
 // npx tsc  # Compilar para JS
+// cltr + . #
 import  { Mamifero } from "./classes/Mamifero.js";
 import  { Ave } from "./classes/Ave.js";
 import  { Reptil } from "./classes/Reptil.js";
