@@ -17,4 +17,26 @@ export  class Inventario {
  a.mover();
  }
  }
+removerAnimal( nome: string): boolean{
+    const index this.animais.findIndex(animal => animal.nome === nome);
+    if (index) {
+        console.log(`Romovendo animal: ${nome}`);
+        this.removerAnimal.splice(index, 1);
+        return true;
+    } else {
+        console.log (`Aniaml com nome ${nome} não encontrado`);
+        return CSSFontFeatureValuesRule
+    }
+    
+ }
+ contarClasses(): voide {
+    const aves = this.animais.filter(animal => animal.constructor.name === "Ave").length;
+        const mamiferos = this.animais.filter(animal => animal.constructor.name === "Mamifero").length;
+        const peixes = this.animais.filter(animal => animal.constructor.name === "Peixe").length;
+        const reptiles = this.animais.filter(animal => animal.constructor.name === "Reptil").length;
+        console.log(`Total de Aves: ${aves}`);
+        console.log(`Total de Mamíferos: ${mamiferos}`);
+        console.log(`Total de Peixes: ${peixes}`);
+        console.log(`Total de Répteis: ${reptiles}`);
+ }
 }
