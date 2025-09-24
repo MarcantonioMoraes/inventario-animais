@@ -19,7 +19,7 @@ export  class Inventario {
  }
 removerAnimal( nome: string): boolean{
     const index this.animais.findIndex(animal => animal.nome === nome);
-    if (index) {
+    if (index !== -1) {
         console.log(`Romovendo animal: ${nome}`);
         this.removerAnimal.splice(index, 1);
         return true;
