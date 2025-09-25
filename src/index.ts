@@ -12,13 +12,12 @@ import { MinhaAvedeRapina } from "./classes/AvedeRapina.js";
 const inventario = new Inventario();
 const leao = new Mamifero("Leão", 5);
 const arara = new Ave("Arara Azul", 2);
-
 const cobra = new Reptil("Cobra Coral", 4);
 const goldfish = new Peixe("Peixe Dourado", 1);
+const aguia = new MinhaAvedeRapina("Águia", 3);
 
 inventario.adicionar(leao);
 inventario.adicionar(arara);
-const aguia = new MinhaAvedeRapina("Águia", 3);
 inventario.adicionar(cobra);
 inventario.adicionar(goldfish);
 inventario.listar();
