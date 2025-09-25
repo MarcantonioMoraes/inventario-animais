@@ -17,19 +17,19 @@ export  class Inventario {
  a.mover();
  }
  }
-removerAnimal( nome: string): boolean{
-    const index this.animais.findIndex(animal => animal.nome === nome);
+removerAnimal(nome:string): boolean{
+    const index = this.animais.findIndex(animal => animal.nome === nome);
     if (index !== -1) {
         console.log(`Romovendo animal: ${nome}`);
-        this.removerAnimal.splice(index, 1);
+        this.animais.splice (index, 1);
         return true;
     } else {
         console.log (`Aniaml com nome ${nome} não encontrado`);
-        return CSSFontFeatureValuesRule
+        return false;
     }
     
  }
- contarClasses(): voide {
+ contarClasses(): void {
     const aves = this.animais.filter(animal => animal.constructor.name === "Ave").length;
         const mamiferos = this.animais.filter(animal => animal.constructor.name === "Mamifero").length;
         const peixes = this.animais.filter(animal => animal.constructor.name === "Peixe").length;
